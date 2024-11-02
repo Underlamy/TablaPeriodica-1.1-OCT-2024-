@@ -1,0 +1,7 @@
+body{
+    margin: 0;
+    background-color: #edf2ffff;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    flex-flow: column;
+}

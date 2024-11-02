@@ -1,0 +1,219 @@
+.checkBox{
+    border-style: solid;
+    border-color: white;
+
+    position: fixed;
+}
+.clasificacion{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+    position: fixed;
+}
+
+button{
+    top: 200%;
+    position: absolute;
+}
+@keyframes unpop{
+    0%{  
+        transform: scale(1);
+        opacity: 100%;
+    }
+    100%{  
+        transform: scale(0.75);
+        opacity: 10%;
+    }
+}
+@keyframes pop{
+    0%{  
+        transform: scale(0.75);
+        opacity: 10%;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .checkBox{
+        width: 15px;
+        height: 15px;
+    
+        border-radius: 10px;
+        border-width: 4px;
+    
+    }
+    .clasificacion{
+        font-size: 12px;
+        padding-left: 27px;
+    }
+
+    .columna1{
+        top: 19%;
+    }
+    .columna2{
+        top: 23%;
+    }
+    .columna3{
+        top: 27%;
+    }
+    .columna4{
+        top: 31%;
+    }
+    
+    .fila1{
+        left: 12%;
+    }
+    .fila2{
+        left: 34.5%;
+    }
+    .fila3{
+        left: 51%;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .checkBox{
+        width: 18px;
+        height: 18px;
+
+        border-radius: 10px;
+        border-width: 4px;
+    }
+    .clasificacion{
+        font-size: 13px;
+        padding-left: 30px;
+    }
+
+    .columna1{
+        top: 19%;
+    }
+    .columna2{
+        top: 23%;
+    }
+    .columna3{
+        top: 27%;
+    }
+    .columna4{
+        top: 31%;
+    }
+    
+    .fila1{
+        left: 12%;
+    }
+    .fila2{
+        left: 34.5%;
+    }
+    .fila3{
+        left: 51%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .checkBox{
+        width: 20px;
+        height: 20px;
+    
+        border-radius: 10px;
+        border-width: 4px;
+    }
+    .clasificacion{
+        font-size: 15px;
+        padding-left: 30px;
+    }
+
+    .columna1{
+        top: 19%;
+    }
+    .columna2{
+        top: 23%;
+    }
+    .columna3{
+        top: 27%;
+    }
+    .columna4{
+        top: 31%;
+    }
+    
+    .fila1{
+        left: 12%;
+    }
+    .fila2{
+        left: 34.5%;
+    }
+    .fila3{
+        left: 51%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .checkBox{
+        width: 18px;
+        height: 18px;
+    
+        border-radius: 10px;
+        border-width: 4px;
+    }
+    .clasificacion{
+        font-size: 13px;
+        padding-left: 30px;
+    }
+
+    .columna1{
+        top: 18%;
+    }
+    .columna2{
+        top: 22%;
+    }
+    .columna3{
+        top: 26%;
+    }
+    .columna4{
+        top: 30%;
+    }
+    
+    .fila1{
+        left: 20.5%;
+    }
+    .fila2{
+        left: 37.5%;
+    }
+    .fila3{
+        left: 50%;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .checkBox{
+        width: 20px;
+        height: 20px;
+    
+        border-radius: 10px;
+        border-width: 4px;
+    }
+    .clasificacion{
+        font-size: 15px;
+        padding-left: 30px;
+    }
+
+    .columna1{
+        top: 120px;
+    }
+    .columna2{
+        top: 155px;
+    }
+    .columna3{
+        top: 190px;
+    }
+    .columna4{
+        top: 225px;
+    }
+    
+    .fila1{
+        left: 20.5%;
+    }
+    .fila2{
+        left: 37.5%;
+    }
+    .fila3{
+        left: 50%;
+    }
+}

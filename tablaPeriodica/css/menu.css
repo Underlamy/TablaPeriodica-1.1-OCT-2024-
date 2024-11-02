@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+i.menu {
+    color: white;
+    font-size: 6vw;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.3;
+    mix-blend-mode: overlay;
+}
+
+.Texto {
+    color: rgb(237, 198, 255);
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 5%;
+    /* Ajusta el valor para controlar la altura */
+    left: 45%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+
+.container {
+    padding: 20px;
+    margin: auto;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    transition: transform .2s;
+    width: 300px;
+    height: 500px;
+    border: 10px solid #ffffff;
+    border-radius: 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.small-container {
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.box img {
+    transition: transform .2s;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.box h2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    z-index: 1;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box:not(:hover) {
+    transform: scale(1);
+}
+
+.laboratorio {
+    background-image: linear-gradient(60deg, #ddb900ff 50%, #ffd500ff 50%);
+}
+
+.tabla {
+    background-image: linear-gradient(300deg, #e76100ff 50%, #ff8800ff 50%);
+}
+
+.community {
+    background-image: linear-gradient(35deg, #8d00dfff 50%, #a100ffff 50%);
+}
+
+.github {
+    background-image: linear-gradient(145deg, #e400d8ff 50%, #f900ffff 50%);
+}

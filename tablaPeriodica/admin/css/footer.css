@@ -1,0 +1,8 @@
+div#footer {
+    width: 100%;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}

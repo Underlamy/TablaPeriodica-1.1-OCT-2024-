@@ -1,0 +1,145 @@
+.nombre{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+#formulario {
+    text-align: center;
+    font-weight: bold;
+    background-color: #d8e3ffff;
+    padding: 10px 50px 10px 50px;
+    height: auto;
+    border-radius: 20px;
+    transition: transform .1s;
+    position: absolute;
+
+    align-self: center;
+    justify-self: center;
+}
+
+#verDatos {
+    background-color: #171b25;
+    padding: 50px;
+    height: auto;
+    border-radius: 20px;
+    position: absolute;
+
+    align-self: center;
+    justify-self: center;
+}
+
+.marcoDato{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 70rem;
+    max-height: 40rem;
+    overflow-y: auto;
+}
+
+#close{
+    position: absolute;
+    font-size: 15px;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 10px 20px 0 0;
+    cursor: pointer;
+}
+
+#formulario:hover{ 
+    transform: scale(1.1);
+}
+
+form input#btn, form input#btnFORM{
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #b3c8ffff;
+    padding: 10px, 20px, 10px, 20px;
+    color: white;
+
+    padding: 10px;
+    border-color: none;
+    border-radius: 10px;
+    border-style: none;
+    transition: transform .1s;
+}
+
+form input#btnEliminar:hover, form input#btn:hover, form input#btnFORM:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.error::placeholder{
+    color: white;
+}
+
+#MensajeAviso{
+    display: none;
+    color: white;
+}
+
+#check{
+    display: inline-block;
+}
+
+div.button{
+    display: flex;
+    border-radius: 15px;
+    height: 100%;
+    background-color: white;
+    transition: transform .1s;
+}
+
+div.button:hover{
+    transform: scale(1.1);
+}
+
+div.button input, div.button select{
+    font-size: 1.5em;
+    outline:none;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+div.button span{
+    outline:none;
+    padding: 10px;
+}
+
+div.button button{
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px 10px 10px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+div.button button i{
+    padding: 0;
+    border: none;
+    background-color: none;
+}
+
+div.button i{
+    padding: 10px 20px 10px 10px;
+    color: rgb(0, 0, 0);
+}
+
+.sub label{
+    color: white;
+}
+
+.sub button{
+    text-decoration: underline;
+    font-weight: inherit;
+    font-size: inherit;
+    background-color: transparent;
+    border: 0;
+    color: rgb(139, 190, 238);
+}

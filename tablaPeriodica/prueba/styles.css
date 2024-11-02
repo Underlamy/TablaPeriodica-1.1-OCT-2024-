@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#atomo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 100px;
+    border-style: solid;
+    background-color: rgb(80, 80, 80);
+
+    position: absolute;
+}
+.orbita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 1000px;
+    border-style: solid;
+    border-width: 5px;
+
+    position: absolute;
+}
+.a{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    z-index: 100;
+}
+
+.palo{
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    background-color: rgb(85, 85, 85);
+}

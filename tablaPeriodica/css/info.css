@@ -1,0 +1,234 @@
+body {
+    background-color: rgb(26, 26, 26);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.seccion {
+    margin: 10px 0 2px 10px;
+    clear: both;
+    float: left;
+
+    padding: 5px 10px 5px 10px;
+
+    background-color: rgb(12, 12, 12);
+}
+
+#simbolo {
+    font-weight: bold;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    text-align: center;
+    font-size: 150px;
+    height: 120px;
+}
+
+#nombre {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 250%;
+}
+
+.atomo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+
+    text-align: center;
+
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#canvaElemento {
+    border-radius: 5%;
+    width: 45%;
+    height: 90%;
+
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+#canvaElectron {
+    opacity: 100% !important;
+    border-radius: 5%;
+    width: 10%;
+    height: 15%;    
+
+    position: absolute;
+    top: 4%;
+    left: 74%;
+}
+
+#canvaProton {
+    opacity: 100% !important;
+    border-radius: 5%;
+    width: 10%;
+    height: 15%;
+
+    position: absolute;
+    top: 19%;
+    left: 74%;
+}
+
+#canvaNeutron {
+    opacity: 100% !important;
+    border-radius: 5%;
+    width: 10%;
+    height: 15%;
+
+    position: absolute;
+    top: 34%;
+    left: 74%;
+}
+
+.info {
+    padding-top: -1%;
+    font-weight: bold;
+    font-size: 400%;
+    text-align: center;
+}
+
+.titulo {
+    opacity: 50%;
+    padding-top: 4%;
+    font-weight: bold;
+    font-size: 75%;
+    text-align: center;
+}
+
+.bloque {
+    position: absolute;
+    top: 5%;
+    left: 53%;
+    border: 15px solid white;
+    border-radius: 25px;
+    width: 19%;
+    height: 40%;
+}
+
+.container {
+    display: inline;
+    width: 100%;
+    height: 100%;
+}
+
+.sub-container {
+    width: 45%;
+    height: 75%;
+}
+
+.box, .large-box, .small-box, .medium-box, .weird-box {
+    position: absolute;
+    background-color: #0a0a0aad;
+
+    border-radius: 25px;
+    height: 12.5%;
+}
+
+.box{
+    width: 20.75%;
+}
+
+.large-box {
+    width: 42.5%;
+}
+
+.medium-box{
+    width: 18%;
+}
+
+.small-box{
+    width: 7%;
+}
+
+.weird-box{
+    width: 9%;
+}
+
+.fila1 {
+    top: 5%;
+}
+
+.fila2 {
+    top: 20%;
+}
+
+.fila3 {
+    top: 35%;
+}
+
+.fila4{
+    top: 51%;
+}
+
+.fila5{
+    top: 66%;
+}
+
+.fila6{
+    top: 81%;
+}
+
+.columna1 {
+    left: 53%;
+}
+
+.columna2 {
+    left: 60.33%;
+}
+
+.columna3 {
+    left: 67.66%;
+}
+
+.columna4 {
+    left: 75%;
+}
+
+.columna5{
+    left: 60.5%;
+}
+
+.columna6{
+    left: 68%;
+}
+
+.columna7{
+    left: 77.5%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+video{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.3;
+    mix-blend-mode: overlay;
+}

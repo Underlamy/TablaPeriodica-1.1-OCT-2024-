@@ -1,0 +1,43 @@
+.noMetales {
+    background-image: linear-gradient(225deg, rgb(255, 99, 82) 50%, rgb(250, 138, 126) 50%);
+}
+
+.metalesAlcalinos {
+    background-image: linear-gradient(225deg, rgb(18, 219, 45) 50%, rgb(83, 255, 106) 50%);
+}
+
+.metaloides {
+    background-image: linear-gradient(225deg, rgb(229, 0, 157) 50%, rgb(250, 71, 193) 50%);
+}
+
+.otrosMetales {
+    background-image: linear-gradient(225deg, rgb(80, 0, 171) 50%, rgb(142, 33, 251) 50%);
+}
+
+.alcalinoTerreos {
+    background-image: linear-gradient(225deg, rgb(15, 212, 163) 50%, rgb(83, 255, 203) 50%);
+}
+
+.metalesTransicion {
+    background-image: linear-gradient(225deg, rgb(0, 64, 255) 50%, rgb(0, 119, 255) 50%);
+}
+
+.lantanidos {
+    background-image: linear-gradient(225deg, rgb(71, 71, 71) 50%, rgb(141, 141, 141) 50%);
+}
+
+.actinidos {
+    background-image: linear-gradient(225deg, rgb(30, 30, 30) 50%, rgb(72, 72, 72) 50%);
+}
+
+.halogenos {
+    background-image: linear-gradient(225deg, rgb(255, 51, 0) 50%, rgb(255, 104, 49) 50%);
+}
+
+.gasesNobles {
+    background-image: linear-gradient(225deg, rgb(192, 115, 15) 50%, rgb(229, 202, 0) 50%);
+}
+
+.noEspecifico {
+    background-image: linear-gradient(225deg, rgb(180, 180, 180) 50%, rgb(222, 222, 222) 50%);
+}

@@ -1,0 +1,41 @@
+h1.select {
+    color: black;
+    text-align: center;
+    padding: 120px 0 10px 0;
+}
+
+.select-box {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.select {
+    margin-right: 10px;
+}
+
+.select select {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    font-size: 2em;
+}
+
+select {
+    width: 4em;
+    border: 0;
+    outline: 0;
+    border-image: none;
+    outline-offset: -2px;
+    border-color: transparent;
+    outline-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+section.info {
+    flex: 1 1 auto;
+    font-variant: small-caps;
+    padding: 20px;
+    background-color: #2a2f3dff;
+}

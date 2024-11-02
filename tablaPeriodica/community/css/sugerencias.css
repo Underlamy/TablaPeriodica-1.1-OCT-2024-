@@ -1,0 +1,200 @@
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+h1.select {
+    color: black;
+    text-align: center;
+    padding: 120px 0 10px 0;
+}
+
+h1.block {
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+}
+
+h3.block {
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+h3.block a {
+    cursor: pointer;
+    color: rgb(0, 102, 255);
+    text-decoration: underline;
+}
+
+form.submit {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.select select,
+form.submit input {
+    font-size: 2em;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: none;
+}
+
+form.submit select {
+    width: 31%;
+    border: 0;
+    outline: 0;
+    border-image: none;
+    outline-offset: -2px;
+    border-color: transparent;
+    outline-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+form.submit input.btn {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+}
+
+form.submit input.titulo {
+    width: 65%;
+    margin-right: 3%;
+}
+
+form.submit input::placeholder {
+    color: black;
+}
+
+div.text {
+    padding: 1em 0 1em 0;
+}
+
+div.text textarea {
+    padding: 10px;
+    font-family: inherit;
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    border: 0;
+    width: 100%;
+    height: 10em;
+}
+
+div.text textarea::placeholder {
+    color: black;
+}
+
+section.info {
+    flex: 1 1 auto;
+    font-variant: small-caps;
+    padding: 20px;
+    background-color: #2a2f3dff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1em;
+    gap: 1em;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 0.5em;
+    font-size: 2em;
+    text-align: left;
+}
+
+.grid-item textarea {
+    font-family: inherit;
+    border: none;
+    border: 0;
+    width: auto;
+    height: auto;
+}
+
+.grid-item .titulo {
+    background-color: white;
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: bold;
+}
+
+.grid-item .texto {
+    background-color: white;
+    font-size: 1em;
+    text-align: left;
+}
+
+section.tipo {
+    font-size: 0.5em;
+}
+
+section.misc {
+    padding-top: 0.5em;
+}
+
+section.misc i {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+i.upvote {
+    color: rgb(185, 255, 79);
+}
+
+i.downvote {
+    color: rgb(255, 79, 79);
+}
+
+i.edit {
+    color: rgb(121, 227, 253);
+}
+
+i.trash {
+    color: rgb(255, 79, 79);
+}
+
+i.block {
+    color: rgb(61, 61, 61);
+}
+
+section.tipo .author {
+    float: right;
+    color: rgb(105, 105, 105);
+}
+
+section.tipo select {
+    border: 0;
+    outline: 0;
+    border-image: none;
+    outline-offset: -2px;
+    border-color: transparent;
+    outline-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+
+
+span.up, span.down {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+span.general{
+    font-variant: small-caps;
+    font-size: 0.7em;
+}
